@@ -7,7 +7,7 @@ install_dir="$HOME/bin"
 mkdir -p "$install_dir"
 
 # Download the script from GitHub
-curl -sSL "https://raw.githubusercontent.com/yourusername/yourrepository/master/git_auto_commit.sh" -o "$install_dir/git_auto_commit.sh"
+curl -sSL "https://raw.githubusercontent.com/shahabarvin/gishlinux/master/git_auto_commit.sh" -o "$install_dir/git_auto_commit.sh"
 
 # Make the script executable
 chmod +x "$install_dir/git_auto_commit.sh"
